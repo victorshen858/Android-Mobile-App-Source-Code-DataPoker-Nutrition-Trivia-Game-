@@ -1,4 +1,4 @@
-# Android App Course Project
+# Android Mobile Application Course Project
 
 **Contribution:** As Lead Developer, I programmed the user interface and coded the majority of app features/activities. 
 
