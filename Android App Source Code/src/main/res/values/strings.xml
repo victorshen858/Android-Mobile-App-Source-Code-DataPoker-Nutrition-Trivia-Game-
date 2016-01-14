@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Data Poker</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="category_array">
+        <item>Sodium</item>
+        <item>Cholesterol</item>
+        <item>Sugar</item>
+        <item>Protein</item>
+        <item>Total Fat</item>
+        <item>Vitamin C</item>
+        <item>Calories</item>
+        <item>Potassium</item>
+        <item>Dietary fiber</item>
+        <item>Calcium</item>
+        <item>Iron</item>
+    </string-array>
+    <string name="title_activity_one_player">OnePlayer</string>
+    <string name="title_activity_two_player">TwoPlayer</string>
+
+
+</resources>

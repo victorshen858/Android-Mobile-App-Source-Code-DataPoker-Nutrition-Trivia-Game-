@@ -1,0 +1,140 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:2:1-73:12
+	xmlns:android
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:8:5-71:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:14:9-40
+	android:largeHeap
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:9:9-38
+activity#gmu.cs.cs477.datapoker.MainActivity
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:19:13-50
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:17:13-41
+service#gmu.cs.cs477.datapoker.MusicService
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:24:9-28:19
+	android:exported
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:27:13-37
+	android:enabled
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:26:13-35
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:25:13-41
+activity#gmu.cs.cs477.datapoker.OnePlayer
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:36:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:39:13-50
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:38:13-62
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:37:13-38
+activity#gmu.cs.cs477.datapoker.TwoPlayer
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:42:9-47:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:45:13-49
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:44:13-62
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:43:13-38
+activity#gmu.cs.cs477.datapoker.Payoff
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:48:9-53:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:50:13-50
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:51:13-50
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:49:13-35
+activity#gmu.cs.cs477.datapoker.LogInActivity
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:54:9-64:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:57:13-50
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:56:13-39
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:55:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:62:27-74
+activity#gmu.cs.cs477.datapoker.SignUpActivity
+ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:65:9-70:20
+	android:screenOrientation
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:68:13-50
+	android:label
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:67:13-47
+	android:theme
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml:66:13-43
+uses-sdk
+INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\2013vshen\AndroidStudioProjects\DataPoker\app\src\main\AndroidManifest.xml

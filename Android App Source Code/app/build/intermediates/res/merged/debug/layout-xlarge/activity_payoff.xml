@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/relative_layout_payoff"
+    tools:context=".Payoff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How confident are you that you got the answer right? \n          Drag the slider and start earning chips!!"
+        android:id="@+id/confidenceText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:max="100"
+        android:progress="0"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:minHeight="23dip"
+        android:maxHeight="23dip"
+        android:indeterminate="false"
+        android:layout_below="@+id/levelTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageViewPayoff"
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:src="@drawable/coins"
+        android:background="@drawable/imageviewgreen"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Confidence Level:"
+        android:id="@+id/levelTV"
+        android:textSize="35sp"
+        android:layout_below="@+id/userchipTV"
+        android:layout_centerHorizontal="true" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_alignBottom="@+id/analogClock2"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock2"
+        android:layout_alignTop="@+id/imageViewPayoff"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        style="@style/CustomStyleButton"
+        android:id="@+id/submit_button"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="You currently have:"
+        android:id="@+id/userchipTV"
+        android:layout_below="@+id/imageViewPayoff"
+        android:layout_alignRight="@+id/imageViewPayoff"
+        android:layout_alignEnd="@+id/imageViewPayoff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Payoffs are in the form of virtual chips and will be based on your wager of confidence!"
+        android:id="@+id/textView5"
+        android:textSize="18sp"
+        android:layout_below="@+id/confidenceText"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/2013vshen/AndroidStudioProjects/DataPoker/app/src/main/res/layout-xlarge/activity_payoff.xml -->

@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+<solid android:color="#91a2ff" />
+<stroke android:width="3dip" android:color="#44006e"/>
+</shape><!-- From: file:/C:/Users/2013vshen/AndroidStudioProjects/DataPoker/app/src/main/res/drawable/textborder.xml -->

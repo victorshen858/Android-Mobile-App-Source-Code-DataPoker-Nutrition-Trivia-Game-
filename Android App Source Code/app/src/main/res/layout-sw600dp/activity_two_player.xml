@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/relative_layout_two_player"
+    android:background="#e2d679"
+    tools:context=".TwoPlayer">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/broccoli"
+        android:background="@drawable/imageviewborder"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/p2TextView"
+        android:layout_alignRight="@+id/p1TextView"
+        android:layout_alignEnd="@+id/p1TextView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/orange"
+        android:background="@drawable/imageviewborder"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/p1clickUpright"
+        android:layout_alignEnd="@+id/p1clickUpright"
+        android:layout_alignTop="@+id/imageView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="........................................................................................"
+        android:id="@+id/textView4"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click on the more nutritious food FIRST! (first to 3 wins the game)"
+        android:id="@+id/p1clickUpright"
+        android:textSize="11sp"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/p1TextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nutrition Category:"
+        android:id="@+id/p1Category"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:background="@drawable/textborder2"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/p2Category"
+        android:layout_alignStart="@+id/p2Category" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/broccoli"
+        android:background="@drawable/imageviewborder"
+        android:rotation="180"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:rotation="180"
+        android:src="@drawable/orange"
+        android:background="@drawable/imageviewborder"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/p2clickUpsideDown"
+        android:layout_alignStart="@+id/p2clickUpsideDown"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignEnd="@+id/imageView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click on the more nutritious food FIRST! (first to 3 wins the game)"
+        android:id="@+id/p2clickUpsideDown"
+        android:rotation="180"
+        android:textSize="11sp"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignStart="@+id/imageView1"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nutrition Category:"
+        android:background="@drawable/textborder2"
+        android:id="@+id/p2Category"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:rotation="180"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/p1Category"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:background="@drawable/scoretext"
+        android:textSize="33sp"
+        android:id="@+id/p1TextView"
+        android:layout_below="@+id/p1Category"
+        android:layout_toRightOf="@+id/p1scoreupright"
+        android:layout_toEndOf="@+id/p1scoreupright"
+        android:layout_alignBottom="@+id/p1scoreupright" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:textSize="33sp"
+        android:background="@drawable/scoretext"
+        android:id="@+id/p2TextView"
+        android:rotation="180"
+        android:layout_alignTop="@+id/p2upsidedownscore"
+        android:layout_toLeftOf="@+id/p2upsidedownscore"
+        android:layout_toStartOf="@+id/p2upsidedownscore"
+        android:layout_alignBottom="@+id/p2upsidedownscore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Player 1 Score: "
+        android:textSize="18sp"
+        android:id="@+id/p1scoreupright"
+        android:layout_below="@+id/p1Category"
+        android:layout_alignRight="@+id/p2TextView"
+        android:layout_alignEnd="@+id/p2TextView"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nPlayer 2 Score: "
+        android:rotation="180"
+        android:textSize="18sp"
+        android:id="@+id/p2upsidedownscore"
+        android:layout_above="@+id/p2Category"
+        android:layout_alignRight="@+id/p2Category"
+        android:layout_alignEnd="@+id/p2Category" />
+
+
+</RelativeLayout>

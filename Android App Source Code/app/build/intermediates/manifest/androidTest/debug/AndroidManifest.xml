@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gmu.cs.cs477.datapoker.test">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="gmu.cs.cs477.datapoker"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for gmu.cs.cs477.datapoker"/>
+</manifest>

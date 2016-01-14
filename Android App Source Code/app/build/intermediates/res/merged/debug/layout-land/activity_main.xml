@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/backgroundColor"
+    tools:context=".MainActivity">
+
+    <gmu.cs.cs477.datapoker.MultiTouchView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:id="@+id/view3" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySpinner"
+        android:entries="@array/category_array"
+        android:paddingLeft="31dp"
+        android:paddingRight="31dp"
+        android:background="@drawable/spinnerborder"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please select a Nutrition Category:"
+        android:id="@+id/textView"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Data Poker Game"
+        android:id="@+id/textView2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="25sp"
+        android:background="@drawable/textborder"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="One Player"
+        style="@style/CustomStyleButton"
+        android:id="@+id/one_player_btn"
+        android:layout_width="158dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/two_player_btn"
+        android:layout_alignStart="@+id/two_player_btn" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="Two Player"
+        style="@style/CustomStyleButton"
+        android:id="@+id/two_player_btn"
+        android:layout_width="158dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/ratingBar"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view" />
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+        android:layout_width="10dp" android:layout_height="10dp"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_alignBottom="@+id/view3"
+        android:layout_alignRight="@+id/mySpinner"
+        android:layout_alignEnd="@+id/mySpinner" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_alignTop="@+id/fab"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&quot;&quot;"
+        android:id="@+id/textViewRating"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music On:"
+        android:id="@+id/checkBox"
+        android:textSize="12sp"
+        android:checked="true"
+        android:layout_below="@+id/two_player_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/2013vshen/AndroidStudioProjects/DataPoker/app/src/main/res/layout-land/activity_main.xml -->
